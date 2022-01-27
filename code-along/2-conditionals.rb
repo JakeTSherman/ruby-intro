@@ -64,3 +64,14 @@ end
 
 # Combining Expressions
 
+temp = 50
+
+if temp >= 65 && temp <= 80
+    puts "It's PERFECT!!"
+elsif temp > 80
+    puts "Too Hot!!"    
+else
+    puts "Too Cold!!"
+end
+
+
