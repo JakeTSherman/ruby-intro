@@ -23,8 +23,7 @@
 
 die1 = rand(1..6)
 die2 = rand(1..6)   
-puts die1
-puts die2           
-puts die1 + die2
+puts "Die 1 = #{die1}"
+puts "Die 2 = #{die2}"           
 
-puts "die1 (#{die1}) + die2 (#{die2}) = #{die1 + die2}"
+puts "Die 1 (#{die1}) + Die 2 (#{die2}) = #{die1 + die2}"
