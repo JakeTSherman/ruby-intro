@@ -38,5 +38,6 @@ if total == 7 || total == 11
     puts "You Win!!"
 elsif total == 2 || total == 3 || total == 12
     puts "You Lose!!"
-else puts "The Point Is #{total}"
+else 
+    puts "The Point Is #{total}"
 end
