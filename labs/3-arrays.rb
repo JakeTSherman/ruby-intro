@@ -30,6 +30,17 @@ puts "Unioned"
 puts"==="
 puts total_shopping_list = my_list.union(friends_list)
 
+puts " "
+#if duplicated items in the list, use list.uniq
+my_list.push("beer")
+puts my_list
+puts " "
+puts total_list.uniq
+
+puts " "
+
+puts total_list.uniq.sort
+
 # HINTS
 # Learn to read the documentation!
-https://ruby-doc.org/core-2.7.0/Array.html
+# https://ruby-doc.org/core-2.7.0/Array.html
