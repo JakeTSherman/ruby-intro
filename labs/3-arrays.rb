@@ -11,6 +11,25 @@
 # sort the result (alphabetically), and write it to the screen.
 # If the two lists contain the same item, only show it once!
 
+my_list = ["milk", "eggs", "bacon"]
+friends_list = ["beer", "cookies", "apples"]
+puts "My List"
+puts "==="
+puts my_list
+puts " "
+puts "Friend's List"
+puts "==="
+puts friends_list
+puts " "
+puts "Combined List"
+puts "==="
+total_list = my_list + friends_list
+puts total_list.sort!
+puts " "
+puts "Unioned"
+puts"==="
+puts total_shopping_list = my_list.union(friends_list)
+
 # HINTS
 # Learn to read the documentation!
-# https://ruby-doc.org/core-2.7.0/Array.html
+https://ruby-doc.org/core-2.7.0/Array.html
