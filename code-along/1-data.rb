@@ -4,13 +4,29 @@
 
 # In Ruby, there are different *types* of data:
 
+
 # Numbers
+
+puts 5
 
 # Perform simple math with numbers
 
+puts 5 + 3
+puts 5 - 3
+puts 5 * 3 
+puts 5.0 / 2.0
+
+puts (2 + 5) * 5 
+
 # Strings
 
+puts "Hello, world!"
+
 # Combine strings together
+
+puts "Tacos are " + "delish"
+puts "tacos" * 3
+puts "tacos" + 3.to_s
 
 # Variables
 
