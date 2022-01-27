@@ -20,3 +20,11 @@
 # "i would like " + 5 + " tacos"
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
+
+die1 = rand(1..6)
+die2 = rand(1..6)   
+puts die1
+puts die2           
+puts die1 + die2
+
+puts "die1 (#{die1}) + die2 (#{die2}) = #{die1 + die2}"
